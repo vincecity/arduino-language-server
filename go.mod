@@ -12,7 +12,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.9.0
 	go.bug.st/json v1.15.6
-	github.com/vincecity/go-lsp v0.1.2
+	github.com/vincecity/go-lsp v0.1.3
 	google.golang.org/grpc v1.65.0
 )
 
