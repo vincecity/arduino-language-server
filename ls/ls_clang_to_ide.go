@@ -19,8 +19,8 @@ import (
 	"strconv"
 
 	"github.com/arduino/arduino-language-server/sourcemapper"
-	"go.bug.st/lsp"
-	"go.bug.st/lsp/jsonrpc"
+	"github.com/vincecity/go-lsp"
+	"github.com/vincecity/go-lsp/jsonrpc"
 )
 
 func (ls *INOLanguageServer) clangURIRefersToIno(clangURI lsp.DocumentURI) bool {

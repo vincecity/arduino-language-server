@@ -21,8 +21,8 @@ import (
 
 	"github.com/arduino/arduino-language-server/streams"
 	"github.com/pkg/errors"
-	"go.bug.st/lsp"
-	"go.bug.st/lsp/jsonrpc"
+	"github.com/vincecity/go-lsp"
+	"github.com/vincecity/go-lsp/jsonrpc"
 )
 
 func (ls *INOLanguageServer) handleError(logger jsonrpc.FunctionLogger, err error) error {

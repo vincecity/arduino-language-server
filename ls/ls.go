@@ -35,10 +35,10 @@ import (
 	"github.com/arduino/go-paths-helper"
 	"github.com/fatih/color"
 	"github.com/pkg/errors"
+	"github.com/vincecity/go-lsp"
+	"github.com/vincecity/go-lsp/jsonrpc"
+	"github.com/vincecity/go-lsp/textedits"
 	"go.bug.st/json"
-	"go.bug.st/lsp"
-	"go.bug.st/lsp/jsonrpc"
-	"go.bug.st/lsp/textedits"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

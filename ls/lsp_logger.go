@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/fatih/color"
+	"github.com/vincecity/go-lsp/jsonrpc"
 	"go.bug.st/json"
-	"go.bug.st/lsp/jsonrpc"
 )
 
 // Logger is a lsp logger

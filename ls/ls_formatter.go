@@ -17,8 +17,8 @@ package ls
 
 import (
 	"github.com/arduino/go-paths-helper"
-	"go.bug.st/lsp"
-	"go.bug.st/lsp/jsonrpc"
+	"github.com/vincecity/go-lsp"
+	"github.com/vincecity/go-lsp/jsonrpc"
 )
 
 func (ls *INOLanguageServer) createClangdFormatterConfig(logger jsonrpc.FunctionLogger, cppuri lsp.DocumentURI) (func(), error) {

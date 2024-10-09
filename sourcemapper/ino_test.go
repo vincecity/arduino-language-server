@@ -21,7 +21,7 @@ import (
 
 	"github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
-	"go.bug.st/lsp"
+	"github.com/vincecity/go-lsp"
 )
 
 func TestCreateSourceMaps(t *testing.T) {

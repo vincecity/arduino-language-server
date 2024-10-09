@@ -21,7 +21,7 @@ import (
 	"sync"
 
 	"github.com/arduino/arduino-language-server/streams"
-	"go.bug.st/lsp"
+	"github.com/vincecity/go-lsp"
 )
 
 type progressProxyHandler struct {

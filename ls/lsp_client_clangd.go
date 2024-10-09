@@ -25,9 +25,9 @@ import (
 	"github.com/arduino/arduino-language-server/streams"
 	"github.com/arduino/go-paths-helper"
 	"github.com/fatih/color"
+	"github.com/vincecity/go-lsp"
+	"github.com/vincecity/go-lsp/jsonrpc"
 	"go.bug.st/json"
-	"go.bug.st/lsp"
-	"go.bug.st/lsp/jsonrpc"
 )
 
 type clangdLSPClient struct {
